@@ -45,6 +45,7 @@ public class BankTransactionsProducer {
             }
         }
         producer.close();
+        
     }
 
     public static ProducerRecord<String, String> newRandomTransaction(String name) {
